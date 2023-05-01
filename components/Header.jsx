@@ -1,20 +1,31 @@
+import Link from "next/link";
+import iconoEmpresa from "../public/img/model-home.png";
+import Image from "next/image";
+
 const Header = () => {
   return (
     <header class="header">
-      <h1 class="h1-index">Constructora ModelHome</h1>
+      <Image
+        height={99}
+        width={68}
+        src={iconoEmpresa}
+        alt="icono empresa"
+        className="img-header"
+      />
+
       <nav class="nav">
         <ul>
           <li>
-            <a href="index.html">Inicio</a>
+            <Link href="/">Inicio</Link>
           </li>
           <li>
-            <a href="contacto.html">Contacto</a>
+            <Link href="/contacto">Contacto</Link>
           </li>
           <li>
-            <a href="registro.html">Registro</a>
+            <Link href="/registro">Registro</Link>
           </li>
           <li>
-            <a href="login.html">Iniciar sesión</a>
+            <Link href="/login">Iniciar sesión</Link>
           </li>
         </ul>
       </nav>
