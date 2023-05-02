@@ -58,8 +58,8 @@ header {
 }
 
 .img-header {
-  height: 130px;
-  width: 105px;
+  height: 135px;
+  width: 110px;
   padding-top: 8px;
   cursor: pointer;
 }
@@ -381,7 +381,7 @@ h2 {
     gap: 40px;
     place-content: center;
   }
-  .form-img01 {
+  .form-img img {
     height: 300px;
     width: 350px;
   }
@@ -395,7 +395,7 @@ h2 {
   /* .form-container2 {
     padding: 10px 0;
   } */
-  form fieldset {
+  .form-container2 fieldset {
     border-radius: 10px;
     background: #fff;
     border: none;
